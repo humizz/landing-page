@@ -4,17 +4,20 @@ body {
     max-width: auto ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+body .text {
+    text-align: center;
+}
 
 .main-header {
     background-color: #1f2937;
     margin: 0;
     padding: 0;
-    height: ;
     
 }
 h1,
 h4 {
     color: white;
+    align-content: center;
 }
 
 .header {
@@ -23,9 +26,10 @@ h4 {
     font-size: 24px;
     padding-left: 500px;
     padding-right: 500px;
+
 }
 
-a {
+.links a {
     text-decoration: none;
 }
 
@@ -33,11 +37,13 @@ a {
     display: inline-flex;
     font-size: 18px;
     margin-left: 0px;
-    
+    text-align: center;
 }
 
-a {
+.links a {
     color: white;
+    display: block;
+    margin-top: 20px;
 }
 
 ul li {
@@ -53,27 +59,119 @@ ul li {
     background-color: #1f2937;
     padding-bottom: 100px;
     color: white;
-
+    gap: 50px;
 }
 
 .info img {
     display: flex;
     flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.info button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    border-color: #3882f6;
 }
 
 .container img {
-    border: 1px solid rgb(123, 187, 218);
+    border: 3px solid rgb(43, 122, 241);
+    border-radius: 5px;
 }
 .container {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 650px;
-    margin-right: 650px;
+    margin-left: 600px;
+    margin-right: 600px;
+    gap: 35px;
+    padding-bottom: 100px;
+    
 }
 
 .headerpt2 h1 {
     color: black;
     justify-content: center;
     display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 100px;
+}
+
+.text {
+    display: flex;
+    width: 150px;
+    color: #686868;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 600px;
+    padding-right: 600px;
+    font-size: 36px;
+    flex-direction: column;
+
+}
+.quote p {
+    font-style: italic;
+    color: #494949;
+
+}
+.quote .from {
+    margin-right: 0;
+    margin-left: 300px;
+}
+
+.modal {
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.sub {
+    margin-left: -305px;
+    align-self: flex-end;
+}
+
+.main {
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+
+.modal button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
